@@ -3,6 +3,7 @@ def reverse_each_word(string)
   # elementArray.reverse.join(" ")
   elementArray.each do |item|
     item=item.reverse
+    puts item
   end
   elementArray.join(" ")
 end
