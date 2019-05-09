@@ -5,7 +5,7 @@ def reverse_each_word(string)
   # end
   # elementArray.join(" ")
 
-  elementArray.collect{|item|
+  elementArray=elementArray.collect{|item|
     item.reverse
   }
   elementArray.join(" ")
