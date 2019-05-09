@@ -1,5 +1,5 @@
 def reverse_each_word(string)
   elementArray=string.split(" ")
-  elementArray.reverse.join()
+  elementArray.reverse.join(" ")
   # each
 end
